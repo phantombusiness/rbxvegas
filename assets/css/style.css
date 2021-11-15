@@ -1,3 +1,45 @@
+#ploopy-one
+{
+	background-image: url("https://duelbits.com/static/media/spritesheet.ede45d54.png");
+}
+
+#ploopy-two
+{
+	background-image: url("https://c.files.bbci.co.uk/FC92/production/_115785646_hitler_councilor.jpg");
+}
+
+#ploopy-three
+{
+	background-image: url("https://duelbits.com/static/media/spritesheet.ede45d54.png");
+}
+
+#ploopy-four
+{
+	background-image: url("https://duelbits.com/static/media/spritesheet.ede45d54.png");
+}
+
+#ploopy-one::before,#ploopy-one:hover
+{
+	background-image: url("https://c.files.bbci.co.uk/FC92/production/_115785646_hitler_councilor.jpg");
+}
+
+#ploopy-two::before,#ploopy-two:hover
+{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/King_Zog_I.jpg/1200px-King_Zog_I.jpg");
+}
+
+#ploopy-three::before,#ploopy-three:hover
+{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/King_Zog_I.jpg/1200px-King_Zog_I.jpg");
+}
+
+#ploopy-four::before,#ploopy-four:hover
+{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/King_Zog_I.jpg/1200px-King_Zog_I.jpg");
+}
+
+
+
 /**
 * Template Name: BizLand - v3.6.0
 * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
@@ -114,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: rgb(46,42,87);
+  background: rgb(46, 42, 87);
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -169,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   letter-spacing: 0.8px;
   font-family: "Poppins", sans-serif;
-  color: rgb(167, 250, 12);
+  color: #E6BE4B
 }
 #header .logo a {
   color: #222222;
@@ -418,14 +460,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #f7f3f3;
+  color: #fffefe;
   font-family: "Poppins", sans-serif;
 }
 #hero h1 span {
-  color: rgb(167, 250, 12);
+  color: #E6BE4B;
 }
 #hero h2 {
-  color: #f7f7f7;
+  color: #ffffff;
   margin: 5px 0 30px 0;
   font-size: 24px;
   font-weight: 400;
@@ -450,7 +492,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
-  color: #222222;
+  color: #777777;
   font-weight: 600;
   display: flex;
   align-items: center;
@@ -597,17 +639,20 @@ section {
   overflow: hidden;
   background: rgb(66, 60, 122);
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-  transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
-  background-image: url("https://duelbits.com/static/media/spritesheet.ede45d54.png");
   background-size: 200%;
   width: 100%;
 }
+
+.featured-services .icon-box:hover {
+	transform: scale(1.05);
+}
+
 .featured-services .icon-box::before {
   content: "";
   position: absolute;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/King_Zog_I.jpg/1200px-King_Zog_I.jpg");
+  
   right: 0;
   left: 0;
   bottom: 0;
@@ -615,7 +660,6 @@ section {
   z-index: -1;
 }
 .featured-services .icon-box:hover::before {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/King_Zog_I.jpg/1200px-King_Zog_I.jpg");
   background-size: 40%;
   top: 0;
   border-radius: 0px;
@@ -1567,7 +1611,7 @@ section {
   float: right;
   text-align: center;
   font-size: 13px;
-  color: #ffffff;
+  color: #444444;
 }
 @media (max-width: 768px) {
   #footer .copyright, #footer .credits {
