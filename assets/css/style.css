@@ -1,49 +1,3 @@
-/**
-Images for boxes
-*/
-
-
-#ploopy-one
-{
-	background-image: url("https://duelbits.com/static/media/spritesheet.ede45d54.png");
-}
-
-#ploopy-two
-{
-	background-image: url("https://c.files.bbci.co.uk/FC92/production/_115785646_hitler_councilor.jpg");
-}
-
-#ploopy-three
-{
-	background-image: url("https://duelbits.com/static/media/spritesheet.ede45d54.png");
-}
-
-#ploopy-four
-{
-	background-image: url("https://duelbits.com/static/media/spritesheet.ede45d54.png");
-}
-
-#ploopy-one::before,#ploopy-one:hover
-{
-	background-image: url("https://c.files.bbci.co.uk/FC92/production/_115785646_hitler_councilor.jpg");
-}
-
-#ploopy-two::before,#ploopy-two:hover
-{
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/King_Zog_I.jpg/1200px-King_Zog_I.jpg");
-}
-
-#ploopy-three::before,#ploopy-three:hover
-{
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/King_Zog_I.jpg/1200px-King_Zog_I.jpg");
-}
-
-#ploopy-four::before,#ploopy-four:hover
-{
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/King_Zog_I.jpg/1200px-King_Zog_I.jpg");
-}
-
-
 
 /**
 * Template Name: BizLand - v3.6.0
@@ -56,6 +10,7 @@ Images for boxes
 # General
 --------------------------------------------------------------*/
 body {
+  background-color:rgb(46, 42, 87)
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
@@ -157,49 +112,13 @@ h1, h2, h3, h4, h5, h6 {
     transition-delay: 0 !important;
   }
 }
-/*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
-#topbar {
-  background: rgb(46, 42, 87);
-  height: 40px;
-  font-size: 14px;
-  transition: all 0.5s;
-  color: #fff;
-  padding: 0;
-}
-#topbar .contact-info i {
-  font-style: normal;
-  color: #fff;
-}
-#topbar .contact-info i a, #topbar .contact-info i span {
-  padding-left: 5px;
-  color: #fff;
-}
-#topbar .contact-info i a {
-  line-height: 0;
-  transition: 0.3s;
-  transition: 0.3s;
-}
-#topbar .contact-info i a:hover {
-  color: #fff;
-  text-decoration: underline;
-}
-#topbar .social-links a {
-  color: rgba(255, 255, 255, 0.7);
-  line-height: 0;
-  transition: 0.3s;
-  margin-left: 20px;
-}
-#topbar .social-links a:hover {
-  color: white;
-}
+
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgb(66, 60, 122);
+  background: #2F3136;
   transition: all 0.5s;
   z-index: 997;
   height: 86px;
@@ -216,10 +135,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   letter-spacing: 0.8px;
   font-family: "Poppins", sans-serif;
-  color: #E6BE4B
+  color: #ffffff
 }
 #header .logo a {
-  color: #222222;
+  color: #ffffff;
 }
 #header .logo a span {
   color: #106eea;
@@ -262,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 3px;
   font-size: 15px;
   font-weight: 600;
-  color: #222222;
+  color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -301,8 +220,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: #2F3136;
   transition: 0.3s;
 }
 .navbar .dropdown ul li {
@@ -445,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 30vh;
-  background-color: rgb(46, 42, 87);
+  background-color: #202225;
   background-size: cover;
   position: relative;
 }
@@ -469,7 +387,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #hero h1 span {
-  color: #E6BE4B;
+  color: #ffffff;
 }
 #hero h2 {
   color: #ffffff;
@@ -491,13 +409,13 @@ h1, h2, h3, h4, h5, h6 {
   background: #106eea;
 }
 #hero .btn-get-started:hover {
-  background: #247cf0;
+  background: #f8f8f8;
 }
 #hero .btn-watch-video {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
-  color: #777777;
+  color: #ffffff;
   font-weight: 600;
   display: flex;
   align-items: center;
@@ -552,7 +470,7 @@ section {
 }
 
 .section-bg {
-  background-color: rgb(46, 42, 87);
+  background-color: #2F3136;
 }
 
 .section-title {
@@ -590,18 +508,16 @@ section {
 }
 
 
-
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
 .featured-services .icon-box {
   position: relative;
   overflow: hidden;
-  background: rgb(66, 60, 122);
-  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  background: #333c4b;
   border-radius: 8px;
   z-index: 1;
-  background-size: 200%;
+  background-size: 190%;
   width: 100%;
 }
 
@@ -626,7 +542,7 @@ section {
 }
 
 .featured-services .icon-box h3 {
-	background-color: rgb(66, 60, 122);
+	background-color: #2F3136;
 	color: white;
 	text-align: center;
 	margin-top: 200px;
@@ -665,10 +581,65 @@ section {
 }
 
 .featured-services {
-  background-color: rgb(46, 42, 87);
+  background-color: #202225;
 }
-	
 
+/**
+Images for boxes
+*/
+
+
+#picture-one
+{
+	background-image: url("https://i.ibb.co/4smHHzW/Untitled-design-3.png");
+}
+
+#picture-two
+{
+	background-image: url("https://c.files.bbci.co.uk/FC92/production/_115785646_hitler_councilor.jpg");
+}
+
+#picture-three
+{
+	background-image: url("https://i.ibb.co/FKCxkQ7/Blackjack.png");
+}
+
+#picture-four
+{
+	background-image: url("https://duelbits.com/static/media/spritesheet.ede45d54.png");
+}
+
+#picture4::before,#picture4:hover
+{
+	background-image: url("https://c.files.bbci.co.uk/FC92/production/_115785646_hitler_councilor.jpg");
+}
+
+#picture-two::before,#picture-two:hover
+{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/King_Zog_I.jpg/1200px-King_Zog_I.jpg");
+}
+
+#picture-three::before,#picture-three:hover
+{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/King_Zog_I.jpg/1200px-King_Zog_I.jpg");
+}
+
+#picture-four::before,#picture-four:hover
+{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/King_Zog_I.jpg/1200px-King_Zog_I.jpg");
+}
+/*--------------------------------------------------------------
+# Gamble list
+--------------------------------------------------------------*/
+ 
+#Footer {
+    width: 100%;
+    height: 30vh;
+    background-color: #202225;
+    background-size: cover;
+    position: relative;
+  }
+  
 
 /*--------------------------------------------------------------
 # Footer
@@ -678,7 +649,7 @@ section {
   padding: 0 0 30px 0;
   color: #777777;
   font-size: 14px;
-  background-color: rgb(46, 42, 87);
+  background-color: #202225;
 }
 #footer .footer-newsletter {
   padding: 50px 0;
@@ -727,7 +698,7 @@ section {
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background-color: rgb(66, 60, 122);
+  background-color: s
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
