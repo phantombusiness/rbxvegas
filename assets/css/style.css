@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-color:rgb(46, 42, 87)
+  background-color: #2F3136;
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
@@ -582,6 +582,7 @@ section {
 
 .featured-services {
   background-color: #202225;
+  padding: 200px;
 }
 
 /**
